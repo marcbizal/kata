@@ -1,0 +1,15 @@
+{
+  "name": "longest_subseq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx ava --watch --verbose"
+  },
+  "devDependencies": {
+    "ava": "^1.0.1"
+  },
+  "dependencies": {
+    "lodash.memoize": "^4.1.2"
+  }
+}
