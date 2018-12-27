@@ -1,3 +1,12 @@
+/*
+ * Title: Longest Common Subsequence of two Strings
+ * Problem:
+ * Given two strings s1 and s2, return the longest common subsequence of s1 and s2
+ * (with longest common subsequence defined as the longest sequence of characters such
+ *  that all of them appear in both of the strings, possibly with other characters in between)
+ * Source: https://interviewing.io/recordings/Javascript-Google-3/
+ */
+
 const memo = fn => {
   const cache = {};
   return (s1, s2, start1, start2) => {
